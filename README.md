@@ -33,7 +33,7 @@ and visiting http://127.0.0.1:4000
 
 Tested on Ubuntu 12.04 with Ruby 1.8.7 and Python 2.7.
 
-Jekyll requires certain extensions to be built and this requires
+Jekyll requires certain extensions to be built and this required
 
     apt-get ruby-dev
 
