@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="{{site.keywords}}">
+    <meta name="description" content="{{site.description}}">
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" href="{{site.base}}/assets/favicon.ico">
+    <link rel="stylesheet" href="{{site.base}}/assets/foundation/css/normalize.css">
+    <link rel="stylesheet" href="{{site.base}}/assets/foundation/css/foundation.css">
+    <link rel="stylesheet" href="{{site.base}}/assets/iridium/iridium.css">
+    <link rel="stylesheet" href="{{site.base}}/assets/foundation/css/general_foundicons.css">
+    <link rel="stylesheet" href="{{site.base}}/assets/foundation/css/social_foundicons.css">
+    <script src="{{site.base}}/assets/foundation/js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+    <div id="page-wrap">
+        <div id="banner-wrap">
+            <div class="row">
+                <div class="small-12 columns">
+                    <img class="logo left" src="{{site.base}}/assets/img/farset-small-square-logo.png" />
+                    <ul class="inline-icons inline-list right">
+                        <li><a class="twitter-icon" title="Twitter" href="https://twitter.com/FarsetLabs"><i class="social foundicon-twitter"></i></a></li>
+                        <li><a class="github-icon" title="Github" href="https://github.com/FarsetLabs"><i class="social foundicon-github"></i></a></li>
+                        <li><a class="facebook-icon" title="Facebook" href="https://www.facebook.com/FarsetLabs"><i class="social foundicon-facebook"></i></a></li>
+                        <li><a class="flickr-icon" title="Flickr" href="https://www.flickr.com/FarsetLabs"><i class="social foundicon-flickr"></i></a></li>
+                    </ul>
+                    <h1 class="banner"><a href="/"><span class="logo-purple">Farset</span><span class="logo-green">Labs</span><small class="subheader show-for-medium-up"> BELFAST</small></a></h1>
+                </div>
+            </div>
+        </div>
+        <div id="primary-nav">
+            <div class="row">
+                <div class="small-12 columns">
+                    <div class="contain-to-grid sticky">
+                    <nav class="top-bar" data-topbar>
+                        <section class="top-bar-section">
+                            <ul class="left">
+                                <li><a href="{{site.base}}/">Home</a></li>
+                                <li><a href="{{site.base}}/news/">News</a></li>
+                                <li><a href="{{site.base}}/events/">Events</a></li>
+                                <li><a href="{{site.base}}/membership/">Membership</a></li>
+                                <li><a href="{{site.base}}/about/">About</a></li>
+                            </ul>
+                        </section>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="page-content" class="content">
+            <div class="row">
+                <div class="small-12 columns">
+                    {{content}}
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="footer">
+        <section class="links">
+        <div class="row">
+            <div class="small-4 columns">
+                <h6>Links</h6>
+                <ul class="side-nav">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </div>
+            <div class="small-4 columns">
+                <h6>Links</h6>
+                <ul class="side-nav">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </div>
+            <div class="small-4 columns">
+                <h6>Links</h6>
+                <ul class="side-nav">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </div>
+        </div>
+        </section>
+        <section class="attribution">
+        <div class="row">
+            <div class="small-6 columns">
+                Copyright  &copy; Farset Labs 2013.
+            </div>
+            <div class="small-6 columns text-right">
+                Jekyll theme by <a href="https://github.com/averagehuman">averagehuman</a>.
+            </div>
+        </div>
+        </section>
+    </footer>
+    <script src="{{site.base}}/assets/foundation/js/vendor/jquery.js"></script>
+    <script src="{{site.base}}/assets/foundation/js/foundation.js"></script>
+    <script src="{{site.base}}/assets/foundation/js/foundation.topbar.js"></script>
+    <script> $(document).foundation(); </script>
+</body>
+</html>
+
